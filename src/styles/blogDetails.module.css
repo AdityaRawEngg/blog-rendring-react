@@ -2,7 +2,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 80vh;
+  height: 85vh;
   width: 100%;
 }
 
@@ -47,7 +47,6 @@
   padding: 2%;
   text-align: justify;
   margin: 0;
-  font-size: 100%;
 }
 
 .related-links {
@@ -68,5 +67,11 @@ aside {
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+  .related-links {
+      /* margin-bottom: 5vh;
+      margin-top: 5vh; */
+      width: 95%;
+      margin: 5vh auto;
   }
 }

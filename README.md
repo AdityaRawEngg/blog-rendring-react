@@ -63,6 +63,6 @@ npm run test
 
 # Live demo
 
-This App is hosted in []()
+This App is hosted in [Vercel](www.vercel.com)
 
-[Link]()
+[Link](https://blog-rendring-react.vercel.app/)
