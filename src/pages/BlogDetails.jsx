@@ -50,7 +50,9 @@ class BlogDetails extends Component {
         <div className={styles["related-links"]}>
           <h2>Related Links</h2>
           {blog.links &&
-            blog.links.map((link) => <Aside id={link.id} title={link.title} />)}
+            blog.links.map((link) => (
+              <Aside key={link.id} id={link.id} title={link.title} />
+            ))}
         </div>
       </div>
     );
