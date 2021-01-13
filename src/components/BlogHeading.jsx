@@ -1,5 +1,4 @@
 function BlogHeading({ title, author, className, imageUrl }) {
-  console.log(imageUrl);
   return (
     <div className={className}>
       <h1>{title}</h1>
